@@ -5,4 +5,6 @@ using namespace std;
 int angka;
 int pilihan;
 
-bool isPrima(int n)
+bool isPrima(int n){
+    if (n <= 1) return false;
+}
