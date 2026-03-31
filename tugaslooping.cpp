@@ -31,3 +31,5 @@ bool isFibonacci(int n){
     }
     return false;
 }
+
+void inputAngka()
