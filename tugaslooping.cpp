@@ -2,3 +2,4 @@
 using namespace std;
 
 // Variabel global
+int angka;
