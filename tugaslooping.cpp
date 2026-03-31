@@ -60,3 +60,10 @@ void menu() {
     cout << "0. Keluar\n";
     cout << "Pilih menu: ";
 }
+
+int main() {
+    while (true) {
+        menu();
+        cin >> pilihan;
+    }
+}
