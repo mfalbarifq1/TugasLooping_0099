@@ -65,5 +65,27 @@ int main() {
     while (true) {
         menu();
         cin >> pilihan;
+
+        switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilHasilPrima();
+                break;
+
+            case 2:
+                inputAngka();
+                tampilHasilFibonacci();
+                break;
+
+            case 0:
+                cout << "Program selesai.\n";
+                return 0;
+
+            default:
+                cout << "Pilihan tidak valid!\n";
+        }
     }
+
+    return 0;
 }
+
